@@ -55,7 +55,8 @@
     font-weight: bold;
 }
 .banner-box{
-    padding-top: 200px;
+    padding-top: 140px;
+    padding-bottom: 50px;
     margin: 0 auto;
     align-items: center;
 }
@@ -64,4 +65,14 @@
     font-size: 65px;
     font-weight: bold;
     color: #252432;
+    margin-bottom: 37px;
+}
+.banner-btn {
+    background-color: #4E47FF;
+    border: none;
+    padding:12px 36px 12px 36px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
 }
