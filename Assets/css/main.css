@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
     font-style: normal; 
 }
+.raleway-btn-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; }
 
 /*Main*/
 
@@ -20,8 +24,24 @@
 }
 .banner-nav{
     display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    align-items: center;
 }
 .logo {
     font-size: 34px;
     font-weight: 900;
+}
+.logo a{
+    text-decoration: none;
+    color: #4E47FF;
+}
+.btn{
+    background-color: #4E47FF;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
