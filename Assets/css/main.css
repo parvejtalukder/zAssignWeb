@@ -1,3 +1,10 @@
 *{
-    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.banner {
+    background-image: url("/Assets/Hero-bg.png");
+    height: 698px;
+    background-repeat: no-repeat;
+    background-position:inherit;
+    width: 100%;
 }
