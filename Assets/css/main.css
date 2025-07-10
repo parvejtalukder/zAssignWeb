@@ -1,3 +1,13 @@
+/*Fonts*/
+
+.inter-banner-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+
+/*Main*/
+
 *{
     margin: 0;
 }
@@ -7,4 +17,11 @@
     background-repeat: no-repeat;
     background-position:inherit;
     width: 100%;
+}
+.banner-nav{
+    display: flex;
+}
+.logo {
+    font-size: 34px;
+    font-weight: 900;
 }
