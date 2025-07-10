@@ -38,6 +38,11 @@
 }
 .btn{
     background-color: #4E47FF;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    width: 132px;
+    height: 48px;
 }
 .btn a{
     text-decoration: none;
