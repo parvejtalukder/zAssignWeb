@@ -55,8 +55,7 @@
     font-weight: bold;
 }
 .banner-box{
-    padding-top: 140px;
-    padding-bottom: 50px;
+    padding: 109px 167.5px 152px 167.5px;
     margin: 0 auto;
     align-items: center;
 }
@@ -75,4 +74,15 @@
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
+}
+.banner-two {
+    padding: 116px 141px 116px 141px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-two img{
+    width: 403;
+    height: 328;
+    border-radius: 48px;
 }
