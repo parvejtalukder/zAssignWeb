@@ -326,3 +326,43 @@ body{
     font-size: 16px;
     font-weight: bold;
 }
+footer{
+    width: 1440;
+    height: 428px;
+    border: none;
+    box-shadow: inset 0 0 0 1px #0000001A;
+    background-color: #FFFFFF;
+}
+.footer-content {
+    width: 531px;
+    height: 221px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 104px
+}
+.footer-logo {
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.footer-logo a {
+    text-decoration: none;
+    color: #4E47FF;
+}
+.footer-desc{
+    font-size: 16px;
+    font-weight: normal;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer-nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #8987A1;
+}
