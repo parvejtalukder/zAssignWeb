@@ -26,7 +26,7 @@ body{
     background-image: url("../../Assets/Hero-bg.png");
     height: 698px;
     background-repeat: no-repeat;
-    background-position:inherit;
+    background-position:cover;
     width: 100%;
 }
 .banner-nav{
