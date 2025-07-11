@@ -118,9 +118,8 @@
     flex-direction: column;
     justify-content: center;
     background-color:#4d47ff27;
-    margin: 0 158px 137px 141px;
+    margin: 0 141px 137px 141px;
     height: 306px;
-    width: 1140px;
     border-radius: 10px;
 }
 .banner-three-head {
@@ -148,4 +147,68 @@
     font-size: 20px;
     font-weight: normal;
     color: #00000080;
+}
+.banner-four{
+    margin:0 141px 137px 141px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner-four-head {
+    font-size: 42px;
+    line-height: 120%;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 50px;
+}
+.banner-four-cards {
+    display: flex;
+    gap: 20px;
+} 
+.banner-four-card {
+    border-radius: 14px;
+    padding: 24px;
+    background-color: #ffffff80;
+    border: 1px solid #F2EDED;
+    text-align: left;
+}
+.bf-card-stars{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+.bf-card-head {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.bf-card-desc{
+    color: #1E1E1E;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.bf-reviewer {
+    display: flex;
+    gap: 12px;
+}
+.bf-reviewer img{
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+}
+.bf-card-name-date{
+    display: block;
+}
+.bf-reviewer-name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.bf-review-date{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
 }
