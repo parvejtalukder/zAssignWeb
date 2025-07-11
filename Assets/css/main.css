@@ -280,8 +280,49 @@ body{
     height: 490px;
     gap: 19px;
 }
+.banner-form-main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
 .banner-form-main form label {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000000;
+}
+.banner-form-main form input {
+    font-size: 20px;
+    font-weight: normal;
+    width: 497px;
+    height: 70px;
+    padding-left: 32px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: inset 0 0 0 1px #D6DDED;
+}
+.banner-form-main-textarea{
+    font-size: 20px;
+    font-weight: normal;
+    width: 497px;
+    height: 135px;
+    resize: none;
+    padding-left: 32px;
+    padding-top: 20px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: inset 0 0 0 1px #D6DDED;
+}
+.form-btn {
+    padding: 19px 101px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
 }
