@@ -51,6 +51,14 @@ body{
     width: 132px;
     height: 48px;
 }
+.btn:hover {
+    border: 4px solid #4E47FF;
+    background-color: #252432;
+    text-align: center;
+    border-radius: 10px;
+    width: 132px;
+    height: 48px;
+}
 .btn a{
     text-decoration: none;
     color: white;
@@ -73,6 +81,16 @@ body{
     background-color: #4E47FF;
     border: none;
     padding:12px 36px 12px 36px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.banner-btn:hover {
+    border: none;
+    box-shadow: inset 0 0 0 4px #4E47FF;
+    background-color: #252432;
+    padding: 12px 36px 12px 36px;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -110,6 +128,16 @@ body{
     height: 48px;
     border: none;
     background-color: #4E47FF;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner-two-btn:hover {
+    width: 229px;
+    height: 48px;
+    border: 4px solid #4E47FF;
+    background-color: #252432;
     border-radius: 10px;
     color: white;
     font-size: 16px;
@@ -250,6 +278,19 @@ body{
     font-weight: 500;
     color: #FFFFFF;
 }
+.banner-five-btn:hover {
+    justify-content: center;
+    width: 195px;
+    height: 48px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 0 4px #4E47FF;
+    background-color: #252432;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
 .banner-five-img {
     width: 840px;
     height: 364.77px;
@@ -322,6 +363,16 @@ body{
     border-radius: 10px;
     border: none;
     background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.form-btn:hover {
+    padding: 19px 101px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 0 0 4px #4E47FF;
+    background-color: #252432;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
