@@ -113,11 +113,9 @@
     font-weight: bold;
 }
 .banner-three{
-    vertical-align:middle;
     text-align: center;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     background-color:#4d47ff27;
     margin: 0 158px 137px 141px;
@@ -140,4 +138,14 @@
     margin: 0 auto;
     flex-wrap: wrap;
     text-align: center;
+}
+.bt-item h4{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.bt-item p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #00000080;
 }
