@@ -273,5 +273,15 @@ body{
     height: 232px;
 }
 .banner-form-main{
-    
+    display: block;
+    align-content: center;
+    justify-items: end;
+    width: 497px;
+    height: 490px;
+    gap: 19px;
+}
+.banner-form-main form label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
 }
