@@ -23,7 +23,7 @@ body{
     background-color: #F8F8FF;
 }
 .banner {
-    background-image: url("/Assets/Hero-bg.png");
+    background-image: url("../../Assets/Hero-bg.png");
     height: 698px;
     background-repeat: no-repeat;
     background-position:inherit;
