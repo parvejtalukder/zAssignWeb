@@ -422,3 +422,359 @@ footer{
     font-weight: normal;
     color: #8987A1;
 }
+/* Mobile (max-width: 576px) */
+@media screen and (max-width: 576px) {
+    main {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+    .banner-nav {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .banner-nav .logo {
+        font-size: 24px;
+    }
+    .btn {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .btn a {
+        font-size: 14px;
+    }
+    .banner-box {
+        margin-top: 150px;
+        padding: 40px 20px 60px 20px;
+        text-align: center;
+    }
+    .banner-text {
+        font-size: 32px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+    .banner-btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+    .banner-two {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+        margin-right: 0;
+    }
+    .banner-two img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .banner-two-txt {
+        margin-right: 0;
+        text-align: center;
+    }
+    .banner-two-head {
+        font-size: 24px;
+    }
+    .banner-two-desc {
+        font-size: 16px;
+    }
+    .banner-two-btn {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .banner-three {
+        margin: 0 10px 30px 10px;
+        height: auto;
+        padding: 30px 10px;
+        gap: 15px;
+    }
+    .banner-three-head {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .banner-three-items {
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bt-item h4 {
+        font-size: 48px;
+    }
+    .bt-item p {
+        font-size: 16px;
+    }
+    .banner-four {
+        margin: 0 10px 30px 10px;
+    }
+    .banner-four-head {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .banner-four-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .banner-four-card {
+        padding: 20px;
+    }
+    .bf-card-head {
+        font-size: 20px;
+    }
+    .bf-card-desc {
+        font-size: 14px;
+    }
+    .banner-five {
+        margin: 0 10px 30px 10px;
+        padding: 40px 20px;
+    }
+    .banner-five-head {
+        font-size: 32px;
+    }
+    .banner-five-desc {
+        font-size: 14px;
+    }
+    .banner-five-btn {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+    .banner-five-img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .banner-form {
+        width: 80px;
+        display:grid;
+        grid-column: auto;
+        gap: 20px;
+        align-items: center;
+    }
+    .banner-form-head {
+        width: 100%;
+        font-size: 28px;
+        height: auto;
+        text-align: center;
+    }
+    .banner-form-main {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .banner-form-main form input,
+    .banner-form-main-textarea {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .banner-form-main-textarea {
+        height: 100px;
+        padding-top: 10px;
+    }
+    .form-btn {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 30px 10px;
+    }
+    .footer-content {
+        width: 80%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .footer-logo {
+        font-size: 50px;
+    }
+    .footer-desc {
+        font-size: 14px;
+    }
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-nav ul a {
+        font-size: 14px;
+    }
+}
+
+/* Tablet (max-width: 992px) */
+@media screen and (max-width: 992px) and (min-width: 577px) {
+    main {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .banner-nav {
+        padding: 20px 40px;
+    }
+    .banner-nav .logo {
+        font-size: 28px;
+    }
+    .btn {
+        width: 110px;
+        height: 44px;
+        font-size: 15px;
+    }
+    .btn a {
+        font-size: 15px;
+    }
+    .banner-box {
+        padding: 80px 60px 100px 60px;
+        text-align: left;
+    }
+    .banner-text {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .banner-btn {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+    .banner-two {
+        flex-direction: row;
+        padding: 80px 60px;
+        gap: 50px;
+        margin-right: 0;
+    }
+    .banner-two img {
+        width: 300px;
+        height: auto;
+        border-radius: 30px;
+    }
+    .banner-two-txt {
+        margin-right: 60px;
+    }
+    .banner-two-head {
+        font-size: 32px;
+    }
+    .banner-two-desc {
+        font-size: 18px;
+    }
+    .banner-two-btn {
+        width: 180px;
+        height: 44px;
+        font-size: 15px;
+    }
+    .banner-three {
+        margin: 0 40px 50px 40px;
+        padding: 40px 20px;
+        height: auto;
+        gap: 20px;
+    }
+    .banner-three-head {
+        font-size: 34px;
+    }
+    .banner-three-items {
+        gap: 100px;
+        flex-wrap: nowrap;
+    }
+    .bt-item h4 {
+        font-size: 64px;
+    }
+    .bt-item p {
+        font-size: 18px;
+    }
+    .banner-four {
+        margin: 0 40px 50px 40px;
+    }
+    .banner-four-head {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .banner-four-cards {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .banner-four-card {
+        flex: 1 1 45%;
+        padding: 20px;
+    }
+    .bf-card-head {
+        font-size: 22px;
+    }
+    .bf-card-desc {
+        font-size: 15px;
+    }
+    .banner-five {
+        margin: 0 40px 50px 40px;
+        padding: 60px 40px;
+    }
+    .banner-five-head {
+        font-size: 42px;
+    }
+    .banner-five-desc {
+        font-size: 15px;
+    }
+    .banner-five-btn {
+        width: 180px;
+        height: 44px;
+        font-size: 15px;
+    }
+    .banner-five-img {
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+    .banner-form {
+        margin: 0 40px 40px 40px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .banner-form-head {
+        width: 100%;
+        font-size: 40px;
+        height: auto;
+        text-align: left;
+    }
+    .banner-form-main {
+        width: 100%;
+        height: auto;
+    }
+    .banner-form-main form input,
+    .banner-form-main-textarea {
+        width: 100%;
+        height: 60px;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .banner-form-main-textarea {
+        height: 120px;
+        padding-top: 15px;
+    }
+    .form-btn {
+        width: 100%;
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    .footer-content {
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+    .footer-logo {
+        font-size: 80px;
+    }
+    .footer-desc {
+        font-size: 15px;
+    }
+    .footer-nav ul {
+        justify-content: center;
+        gap: 30px;
+    }
+    .footer-nav ul a {
+        font-size: 15px;
+    }
+}
